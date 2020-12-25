@@ -1,0 +1,74 @@
+.Commerce{
+
+}
+.Commerce__container{
+    max-width: 1601px;
+    margin: 0 auto;
+    width: 100%;
+}
+.Commerce__title{
+margin: 0 auto;
+text-align: center;
+font-weight: bold;
+font-size: 55px;
+line-height: 70px;
+max-width: 457px;
+}
+.Commerce__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+    margin-left: 51px;
+}
+.Commerce__item-img--1{
+    position: relative;
+    margin-bottom: 40px;
+}
+.Commerce__item-img--1::before{
+    content: "";
+position: absolute;
+background-image: url(../img/pay.png);
+top: 0;
+left: -75px;
+width: 68px;
+height: 48px;
+background-repeat: no-repeat;
+}
+.Commerce__item-img--1::after{
+    content: "";
+position: absolute;
+width: 308px;
+height: 370px;
+left: -101px;
+bottom: -145px;
+background-image: url(../img/pay-text.jpg);
+background-repeat: no-repeat;
+}
+.Commerce__item-img--2{
+margin-bottom: 15px;
+margin-top: 57px;
+}
+.Commerce__item-img--3{
+margin-bottom: 39px;
+margin-top: 42px;
+}
+.Commerce__item-title{
+    font-weight: bold;
+font-size: 36px;
+line-height: 70px;
+margin-bottom: 5px;
+}
+.Commerce__item-text{
+font-size: 18px;
+line-height: 30px;
+color: #94A2B3;
+max-width: 430px;
+margin-bottom: 25px;
+}
+.Commerce__item-btn{
+text-decoration: none;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+color: #299EF3;
+}

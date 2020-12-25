@@ -1,0 +1,65 @@
+.header{
+height: 100vh;
+background-image: url(../img/hero_sectionbg.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.header__container {
+    max-width: 1810px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header__inner {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+.menu__list {
+    display: flex;
+}
+.menu__list li {
+    list-style: none;
+}
+.menu__list li + li{
+    margin-left: 38px;
+}
+.menu__list a{
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #272D4E;
+text-decoration: none;
+}
+.menu {
+    margin-left: 144px;
+}
+.header__wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header__login {
+    font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #272D4E;
+    margin-right: 38px;
+    text-decoration: none;
+}
+.header__started {
+    text-decoration: none;
+    margin-right: 30px;
+    background: #7854f7;
+    border-radius: 5px;
+    padding: 13px 14px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all .5s;
+}
+.header__started:hover{
+    background: #70C217;
+}

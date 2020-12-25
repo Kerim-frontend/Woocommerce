@@ -1,0 +1,21 @@
+
+@import './header.css';
+@import './hero.css';
+@import './Commerce.css';
+@import './advantages.css';
+@import './review.css';
+@import './support.css';
+@import './footer.css';
+@import './media.css';
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #272D4E;
+    font-weight: 400;
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
